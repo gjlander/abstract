@@ -23,6 +23,13 @@ header {
     align-items: center;
     gap: 0.25rem;
 }
+.submit-btn {
+    background-color: black;
+    border: solid 2px white;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
 h1 {
     font-size: 1.5rem;
 }
