@@ -30,6 +30,15 @@ header {
     padding: 0.5rem;
     border-radius: 2px;
 }
+.sign-in-btn {
+    background-color: #4c5fd5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 1.5rem;
 }
