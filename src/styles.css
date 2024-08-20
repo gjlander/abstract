@@ -1,46 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
-    font-family: 'Archivo';
+  font-family: "Archivo";
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: black;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: #fff;
 }
 
 .header-start {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.header-end {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .submit-btn {
-    background-color: black;
-    border: solid 2px white;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 2px;
+  background-color: black;
+  border: solid 2px white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
 }
 .sign-in-btn {
-    background-color: #4c5fd5;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 2px;
-    border: none;
-    font-weight: bold;
+  background-color: #4c5fd5;
+  border: solid 2px #4c5fd5;
+  color: white;
+  padding: 0.6rem 2rem;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
 }
 
 h1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .hero {
@@ -55,65 +62,65 @@ h1 {
 }
 
 .hero h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .hero input {
-    width: 50%;
-    padding: 0.25rem;
+  width: 50%;
+  padding: 0.25rem;
 }
 
 .services {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
-    padding: 3rem;
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  padding: 3rem;
+  gap: 1rem;
 }
 
 .service {
-    display: flex;
-    /* border: solid 2px red; */
-    gap: 1rem;
-    line-height: 1.5;
+  display: flex;
+  /* border: solid 2px red; */
+  gap: 1rem;
+  line-height: 1.5;
 }
 
 .service img {
-    display: block;
-    height: 30%;
-    /* border: solid 2px red; */
-    /* width: 25%; */
+  display: block;
+  height: 30%;
+  /* border: solid 2px red; */
+  /* width: 25%; */
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 footer {
-    background-color: black;
-    color: #fff;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: space-around;
-    min-height: 30vh;
+  background-color: black;
+  color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  min-height: 30vh;
 }
 footer a {
-    color: #fff;
+  color: #fff;
 }
 .footer-nav {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 .footer-nav h3 {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .footer-nav li {
-    margin-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 h4 {
-    margin-top: 0.25rem;
+  margin-top: 0.25rem;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 .footer-copyright {
-    align-self: flex-end;
+  align-self: flex-end;
 }
