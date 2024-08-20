@@ -94,6 +94,9 @@ footer {
     justify-content: space-around;
     min-height: 30vh;
 }
+footer a {
+    color: #fff;
+}
 .footer-nav {
     display: flex;
     gap: 2rem;
