@@ -33,7 +33,7 @@ header {
   background-color: black;
   border: solid 2px white;
   color: white;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 2px;
 }
 .sign-in-btn {
