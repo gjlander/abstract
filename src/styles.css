@@ -93,6 +93,9 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+footer a {
+    color: #fff;
+}
 .footer-nav {
     display: flex;
     gap: 2rem;
